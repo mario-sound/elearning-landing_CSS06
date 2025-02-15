@@ -12,16 +12,20 @@ Este es mi **sexto proyecto público de frontend web**, donde aplico lo aprendid
 - **Animaciones y efectos**: Uso de `:hover` y otros efectos para mejorar la experiencia visual. En este proyecto me centro más en este apartado ya que me he focalizado mucho en crear un header animado y atractivo visualmente.
 - **Comportamiento Responsive**: Comportamiento responsive para la correcta visualización de la web en diferentes dispositivos como móvil, tablet, tablet en posición horizontal y en desktop.
 
-**Phone**
+### Phone<br>
+
 ![E-Learning Page - Phone](img/elearning-landing-page-phone.png)
 
-**Tablet**
+### Tablet<br>
+
 ![E-Learning Page - Tablet](img/elearning-landing-page-tablet.png)
 
-**Tablet Horizontal**
+### Tablet Horizontal<br>
+
 ![E-Learning Page - Tablet horizontal](img/elearning-landing-page-tablet-horizontal.png)
 
-**Desktop**
+### Desktop<br>
+
 ![E-Learning Page - Desktop](img/elearning-landing-page-desktop.png)
 
 Este proyecto forma parte de mi **máster en desarrollo Full Stack** en la escuela **Conquer Blocks**.
