@@ -302,6 +302,12 @@ footer .container .logo {
     height: 400px;
   }
 }
+@media (min-width: 1200px) {
+  .hero__img:hover .card {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .hero__img figure {
   display: flex;
   justify-content: center;
@@ -380,7 +386,9 @@ footer .container .logo {
 }
 @media (min-width: 1024px) {
   .hero__img .card {
-    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
   }
 }
 .hero__img .card.members {
@@ -393,6 +401,12 @@ footer .container .logo {
     top: -5%;
   }
 }
+@media (min-width: 1200px) {
+  .hero__img .card.members {
+    top: 20%;
+    right: -25%;
+  }
+}
 .hero__img .card.coursehours {
   bottom: -10%;
   left: 0%;
@@ -401,6 +415,12 @@ footer .container .logo {
 @media (min-width: 768px) {
   .hero__img .card.coursehours {
     bottom: -5%;
+  }
+}
+@media (min-width: 1200px) {
+  .hero__img .card.coursehours {
+    bottom: -10%;
+    left: -25%;
   }
 }
 .hero__img .card p.ptittle {
@@ -490,6 +510,11 @@ footer .container .logo {
 @media (min-width: 1024px) {
   .container {
     padding: 32px 120px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    padding: 32px 180px;
   }
 }
 
