@@ -6,112 +6,112 @@
 
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLightItalic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLightItalic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLightItalic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBoldItalic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBoldItalic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-BoldItalic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-BoldItalic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-BoldItalic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-LightItalic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-LightItalic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-LightItalic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-MediumItalic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-MediumItalic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-MediumItalic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBoldItalic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBoldItalic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBoldItalic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Plus Jakarta Sans";
-  src: url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2") format("woff2"), url("../../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff") format("woff");
+  src: url("../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2") format("woff2"), url("../fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -335,7 +335,7 @@ footer .container .logo {
 }
 .hero__img figure .hero__background-img {
   z-index: 1;
-  background-image: url("img/girl-coffee.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+  background-image: url("/img/girl-coffee.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
   background-size: 93%, 100%;
   background-position: bottom center, center;
   background-repeat: no-repeat;
@@ -346,7 +346,7 @@ footer .container .logo {
 }
 @media (min-width: 768px) {
   .hero__img figure .hero__background-img {
-    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+    background-image: url("/img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
     border-radius: 158.5px;
     background-size: 220px, 100%;
     background-position: 0px 50px, center;
@@ -357,7 +357,7 @@ footer .container .logo {
 }
 @media (min-width: 1024px) {
   .hero__img figure .hero__background-img {
-    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+    background-image: url("/img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
     border-radius: 180px;
     background-size: 350px, 100%;
     background-position: 0px 30px, center;
@@ -367,22 +367,7 @@ footer .container .logo {
 }
 @media (min-width: 1200px) {
   .hero__img figure .hero__background-img {
-    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
     border-radius: 158.5px;
-    background-size: 350px, 100%;
-    background-position: 0px 30px, center;
-    width: 317px;
-    height: 560px;
-  }
-}
-@media (min-width: 1440px) {
-  .hero__img figure .hero__background-img {
-    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
-    border-radius: 158.5px;
-    background-size: 350px, 100%;
-    background-position: 0px 30px, center;
-    width: 317px;
-    height: 560px;
   }
 }
 .hero__img .card {
