@@ -13,16 +13,16 @@ Este es mi **sexto proyecto público de frontend web**, donde aplico lo aprendid
 - **Comportamiento Responsive**: Comportamiento responsive para la correcta visualización de la web en diferentes dispositivos como móvil, tablet, tablet en posición horizontal y en desktop.
 
 **Phone**
-![E-Learning Page - Phone](elearning-landing-page-phone.png)
+![E-Learning Page - Phone](img/elearning-landing-page-phone.png)
 
 **Tablet**
-![E-Learning Page - Tablet](elearning-landing-page-tablet.png)
+![E-Learning Page - Tablet](img/elearning-landing-page-tablet.png)
 
 **Tablet Horizontal**
-![E-Learning Page - Tablet horizontal](elearning-landing-page-tablet-horizontal.png)
+![E-Learning Page - Tablet horizontal](img/elearning-landing-page-tablet-horizontal.png)
 
 **Desktop**
-![E-Learning Page - Desktop](elearning-landing-page-desktop.png)
+![E-Learning Page - Desktop](img/elearning-landing-page-desktop.png)
 
 Este proyecto forma parte de mi **máster en desarrollo Full Stack** en la escuela **Conquer Blocks**.
 
