@@ -1,0 +1,11 @@
+@use "../components/components" as *;
+@use "../base/base" as *;
+@use "../abstracts/abstracts" as *;
+
+.header {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

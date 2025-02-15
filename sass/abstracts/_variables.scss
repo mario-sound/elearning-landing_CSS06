@@ -1,0 +1,32 @@
+$bp-phone: 450px;
+$bp-tablet: 768px;
+$bp-tablet-horizontal: 1024px;
+$bp-desktop: 1200px;
+$bp-desktop-xl: 1440px;
+
+$font-primary: "Plus Jakarta Sans";
+
+$black: rgba(19, 24, 63, 1);
+$grey: rgba(131, 134, 154, 1);
+$pink: rgba(247, 71, 128, 1);
+$purple: rgba(102, 108, 163, 1);
+$pink-gum: rgba(255, 167, 195, 1);
+$gradient-pink: linear-gradient(rgb(240, 42, 166, 1), rgb(255, 111, 72, 1));
+$gradient-pink-reverse: linear-gradient(
+  rgb(255, 111, 72, 1),
+  rgb(240, 42, 166, 1)
+);
+$gradient-blue: linear-gradient(rgb(72, 81, 255, 1), rgb(240, 42, 166, 1));
+$white: rgba(255, 255, 255, 1);
+$gradient-pink-hover: linear-gradient(
+  rgb(240, 42, 166, 1),
+  rgb(255, 111, 72, 0.5)
+);
+$gradient-blue-hover: linear-gradient(
+  rgb(72, 81, 255, 1),
+  rgb(240, 42, 166, 0.5)
+);
+$white-hover: rgba(255, 255, 255, 0.8);
+
+$bg-primary-color: #272727;
+$bg-second-color: #ebebeb;

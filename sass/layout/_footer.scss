@@ -1,0 +1,22 @@
+@use "../components/components" as *;
+@use "../base/base" as *;
+@use "../abstracts/abstracts" as *;
+
+footer {
+  background-color: $black;
+  .container {
+    padding: 32px 16px;
+    @include breakpoint(tablet) {
+      padding: 32px 36px;
+    }
+    @include breakpoint(tablethorizontal) {
+      padding: 32px 120px;
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      color: $white;
+    }
+  }
+}

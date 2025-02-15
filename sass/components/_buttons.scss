@@ -1,0 +1,66 @@
+@use "../base/base" as *;
+@use "../abstracts/abstracts" as *;
+
+// Definimos el placeholder %button
+%button {
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 16px;
+  font-family: $font-primary;
+  font-weight: 600;
+  color: $white;
+  border: none;
+  border-radius: 55px;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: $white-hover;
+  }
+}
+
+.button {
+  @extend %button;
+  background: $black;
+  &:hover {
+    background: $grey;
+  }
+}
+.button-blue {
+  @extend %button;
+  background: linear-gradient(rgb(72, 81, 255, 1), rgb(240, 42, 166, 1));
+  &:hover {
+    background: linear-gradient(rgb(72, 81, 255, 0.6), rgb(240, 42, 166, 0.6));
+  }
+}
+.button-pink {
+  @extend %button;
+  background: linear-gradient(rgb(255, 111, 72, 1), rgb(240, 42, 166, 1));
+  &:hover {
+    background: linear-gradient(rgb(240, 42, 166, 0.6), rgb(255, 111, 72, 0.6));
+  }
+}
+// .button-blue {
+//   @extend %button;
+//   background: linear-gradient(90deg, rgb(72, 81, 255, 1), rgb(240, 42, 166, 1));
+//   background-size: 200% 100%;
+//   transition: background-position 0.5s ease-in-out;
+
+//   &:hover {
+//     background-position: 100% 0;
+//   }
+// }
+
+// .button-pink {
+//   @extend %button;
+//   background: linear-gradient(
+//     90deg,
+//     rgb(240, 42, 166, 1),
+//     rgb(255, 111, 72, 1)
+//   );
+//   background-size: 200% 100%;
+//   transition: background-position 0.5s ease-in-out;
+
+//   &:hover {
+//     background-position: 100% 0;
+//   }
+// }

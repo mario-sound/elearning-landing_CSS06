@@ -1,0 +1,511 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLightItalic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBoldItalic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-BoldItalic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-LightItalic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-MediumItalic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-SemiBoldItalic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff2") format("woff2"), url("/fonts/plus-jakarta-sans/PlusJakartaSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.heading-xl,
+.heading-l,
+.heading-m,
+.heading-s {
+  font-family: "Plus Jakarta Sans";
+  color: rgb(19, 24, 63);
+}
+
+.body-m,
+.body-s {
+  font-family: "Plus Jakarta Sans";
+  color: rgb(131, 134, 154);
+}
+
+.heading-xl {
+  font-size: 56px;
+  line-height: 70px;
+  font-weight: 800;
+}
+
+.heading-l {
+  font-size: 42px;
+  line-height: 51px;
+  font-weight: 700;
+}
+
+.heading-m {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 800;
+}
+
+.heading-s {
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 800;
+}
+
+.body-m {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+}
+.body-m-pink {
+  font-weight: 800;
+  color: rgb(247, 71, 128);
+}
+
+.body-s {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.logo {
+  font-family: "Plus Jakarta Sans";
+  font-size: 28px;
+  line-height: 35.28px;
+  letter-spacing: 0;
+  font-weight: 800;
+}
+
+.button-pink, .button-blue, .button {
+  display: inline-block;
+  padding: 15px 35px;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 55px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button-pink:hover, .button-blue:hover, .button:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.button {
+  background: rgb(19, 24, 63);
+}
+.button:hover {
+  background: rgb(131, 134, 154);
+}
+
+.button-blue {
+  background: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
+}
+.button-blue:hover {
+  background: linear-gradient(rgba(72, 81, 255, 0.6), rgba(240, 42, 166, 0.6));
+}
+
+.button-pink {
+  background: linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+}
+.button-pink:hover {
+  background: linear-gradient(rgba(240, 42, 166, 0.6), rgba(255, 111, 72, 0.6));
+}
+
+footer {
+  background-color: rgb(19, 24, 63);
+}
+footer .container {
+  padding: 32px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  footer .container {
+    padding: 32px 36px;
+  }
+}
+@media (min-width: 1024px) {
+  footer .container {
+    padding: 32px 120px;
+  }
+}
+footer .container .logo {
+  color: rgb(255, 255, 255);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+}
+.hero__cta {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .hero__cta {
+    max-width: 450px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero__cta {
+    max-width: 550px;
+  }
+}
+.hero__cta h1 {
+  margin: 50px 0 35px;
+}
+@media (min-width: 1200px) {
+  .hero__cta h1 {
+    font-size: 56px;
+    font-weight: 700;
+  }
+}
+.hero__cta p {
+  margin-bottom: 30px;
+}
+.hero__cta a {
+  max-width: fit-content;
+}
+.hero__img {
+  min-width: 320px;
+  max-width: 380px;
+  margin: 70px 0;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .hero__img {
+    height: 400px;
+  }
+}
+.hero__img figure {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .hero__img figure::after {
+    content: "";
+    background: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
+    position: absolute;
+    transform: rotate(45deg) translate(110%, -10%);
+    border-radius: 158.5px;
+    bottom: 0;
+    right: 0;
+    width: 218px;
+    height: 1000px;
+    z-index: 0;
+  }
+}
+@media (min-width: 768px) and (min-width: 1024px) {
+  .hero__img figure::after {
+    transform: rotate(45deg) translate(99%, -10%);
+    width: 250px;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  .hero__img figure::after {
+    transform: rotate(45deg) translate(75%, -10%);
+    width: 317px;
+  }
+}
+.hero__img figure .hero__background-img {
+  z-index: 1;
+  background-image: url("img/girl-coffee.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+  background-size: 93%, 100%;
+  background-position: bottom center, center;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+}
+@media (min-width: 768px) {
+  .hero__img figure .hero__background-img {
+    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+    border-radius: 158.5px;
+    background-size: 220px, 100%;
+    background-position: 0px 50px, center;
+    transform: translate(0, 0, 50px);
+    width: 216px;
+    height: 382px;
+  }
+}
+@media (min-width: 1024px) {
+  .hero__img figure .hero__background-img {
+    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+    border-radius: 180px;
+    background-size: 350px, 100%;
+    background-position: 0px 30px, center;
+    width: 317px;
+    height: 560px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero__img figure .hero__background-img {
+    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+    border-radius: 158.5px;
+    background-size: 350px, 100%;
+    background-position: 0px 30px, center;
+    width: 317px;
+    height: 560px;
+  }
+}
+@media (min-width: 1440px) {
+  .hero__img figure .hero__background-img {
+    background-image: url("img/girl-coffee-higher.png"), linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+    border-radius: 158.5px;
+    background-size: 350px, 100%;
+    background-position: 0px 30px, center;
+    width: 317px;
+    height: 560px;
+  }
+}
+.hero__img .card {
+  position: absolute;
+  z-index: 1;
+  max-width: fit-content;
+  padding: 20px 25px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+@media (min-width: 1024px) {
+  .hero__img .card {
+    display: none;
+  }
+}
+.hero__img .card.members {
+  top: -15%;
+  right: 0%;
+  box-shadow: 10px 30px 50px rgba(19, 24, 63, 0.15);
+}
+@media (min-width: 768px) {
+  .hero__img .card.members {
+    top: -5%;
+  }
+}
+.hero__img .card.coursehours {
+  bottom: -10%;
+  left: 0%;
+  box-shadow: -10px 30px 50px rgba(19, 24, 63, 0.15);
+}
+@media (min-width: 768px) {
+  .hero__img .card.coursehours {
+    bottom: -5%;
+  }
+}
+.hero__img .card p.ptittle {
+  font-size: 14px;
+  font-weight: 600;
+}
+.hero__img .card p.pnumber {
+  padding-right: 10px;
+  font-weight: 800;
+}
+
+@media (min-width: 768px) {
+  .courses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+}
+@media (min-width: 1024px) {
+  .courses {
+    margin-top: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+}
+.courses__card-tittle {
+  background: linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+  border-radius: 10px;
+  margin: 25px 0 40px;
+}
+@media (min-width: 768px) {
+  .courses__card-tittle {
+    padding-top: 30px;
+    transform: translatey(-10px);
+  }
+}
+.courses__card-tittle h3 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 300px;
+  padding: 32px;
+}
+.courses figure {
+  transform: translatey(-24px);
+}
+.courses__tittle {
+  font-weight: 800;
+  margin-bottom: 18px;
+}
+.courses__card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 0 32px 32px 32px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.courses__card p {
+  margin-bottom: 18px;
+}
+.courses__cta {
+  color: rgb(247, 71, 128);
+  text-decoration: none;
+  font-family: "Plus Jakarta Sans";
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease-out;
+}
+.courses__cta:hover {
+  color: rgb(255, 167, 195);
+}
+
+.body__container {
+  background: linear-gradient(#ffffff, #f0f1ff);
+  z-index: -2;
+  overflow: hidden;
+}
+
+.container {
+  padding: 16px;
+}
+@media (min-width: 768px) {
+  .container {
+    padding: 36px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding: 32px 120px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
