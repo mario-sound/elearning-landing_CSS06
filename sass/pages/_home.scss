@@ -75,7 +75,7 @@
       }
       .hero__background-img {
         z-index: 1;
-        background-image: url("img/girl-coffee.png"), $gradient-pink-reverse;
+        background-image: url("../img/girl-coffee.png"), $gradient-pink-reverse;
         background-size: 93%, 100%;
         background-position: bottom center, center;
         background-repeat: no-repeat;
@@ -84,7 +84,7 @@
         width: 260px;
         height: 260px;
         @include breakpoint(tablet) {
-          background-image: url("img/girl-coffee-higher.png"),
+          background-image: url("../img/girl-coffee-higher.png"),
             $gradient-pink-reverse;
           border-radius: 158.5px;
           background-size: 220px, 100%;
@@ -94,7 +94,7 @@
           height: 382px;
         }
         @include breakpoint(tablethorizontal) {
-          background-image: url("img/girl-coffee-higher.png"),
+          background-image: url("../img/girl-coffee-higher.png"),
             $gradient-pink-reverse;
           border-radius: 180px;
           background-size: 350px, 100%;
