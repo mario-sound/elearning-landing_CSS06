@@ -1,6 +1,4 @@
-# Nombre - Descrip
-
-![PROYECTO](.png)
+# E-Learning-page - Proyecto Frontend
 
 ## 📌 Descripción
 
@@ -12,8 +10,19 @@ Este es mi **sexto proyecto público de frontend web**, donde aplico lo aprendid
 - **Flexbox y Grid**: Para estructurar y distribuir los elementos de la página.
 - **Tipografías personalizadas**: Implementación de fuentes específicas según el diseño.
 - **Animaciones y efectos**: Uso de `:hover` y otros efectos para mejorar la experiencia visual. En este proyecto me centro más en este apartado ya que me he focalizado mucho en crear un header animado y atractivo visualmente.
+- **Comportamiento Responsive**: Comportamiento responsive para la correcta visualización de la web en diferentes dispositivos como móvil, tablet, tablet en posición horizontal y en desktop.
 
-![Nombre]()
+**Phone**
+![E-Learning Page - Phone](elearning-landing-page-phone.png)
+
+**Tablet**
+![E-Learning Page - Tablet](elearning-landing-page-tablet.png)
+
+**Tablet Horizontal**
+![E-Learning Page - Tablet horizontal](elearning-landing-page-tablet-horizontal.png)
+
+**Desktop**
+![E-Learning Page - Desktop](elearning-landing-page-desktop.png)
 
 Este proyecto forma parte de mi **máster en desarrollo Full Stack** en la escuela **Conquer Blocks**.
 
@@ -32,7 +41,7 @@ El diseño se basa en un archivo **Figma (.fig)** recibido, del cual desarrollé
 - **Landing page estática** con un diseño profesional.
 - Implementación de **tipografía, animaciones y colores fieles** al diseño original.
 - **Uso de Sass** para mantener una estructura de estilos organizada y modular.
-- **Sin comportamiento responsive** en esta versión, pero se implementará en proyectos futuros.
+- **Comportamiento responsive.**
 
 ## 📂 Tecnologías Utilizadas
 
@@ -49,10 +58,10 @@ Si deseas ejecutar el proyecto en tu equipo:
 
 ```sh
 # Clona el repositorio
-git clone
+git clone https://github.com/mario-sound/elearning-landing_CSS06
 
 # Entra en la carpeta del proyecto
-cd
+cd elearning-landing_CSS06
 
 # Instala dependencias
 npm install
